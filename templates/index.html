@@ -52,8 +52,8 @@
         <form method="post" action="/merge" enctype="multipart/form-data"> <!--If we want to give files to server then we have to use enctype= -->
             <div class="form-group">
               <label for="exampleFormControlFile1">Select the pdf files you want to merge</label>
-              <input type="file" class="form-control-file" id="exampleFormControlFile1" multiple accept=".pdf"> <!--We can also use accept='application/pdf'-->
-              <input class="btn btn-primary my-4" type="button" value="Submit">
+              <input type="file" name="pdfs" class="form-control-file" id="exampleFormControlFile1" multiple accept=".pdf"> <!--We can also use accept='application/pdf'-->
+              <input class="btn btn-primary my-4" type="submit" value="Submit">
             </div>
         </form>
     </div>
